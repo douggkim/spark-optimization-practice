@@ -18,6 +18,7 @@ object Playground {
   val spark = SparkSession.builder()
     .appName("Spark Optimization Playground")
     .master("local")
+    .config("spark.driver.host", "localhost")
     .getOrCreate()
 
   val sc = spark.sparkContext
