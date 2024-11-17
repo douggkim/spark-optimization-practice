@@ -1,3 +1,5 @@
 out/
 target/
 spark-cluster/
+data/
+src/main/resources/generated/
